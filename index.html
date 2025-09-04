@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Healthy Food</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🍎 Healthy Food for Kids 🥦</h1>
+    <p>Colorful, fun, and yummy foods that keep you strong!</p>
+    <a href="discover.html" class="btn btn-light btn-lg">Discover me </a>
+  </header>
+
+  <!-- Content using Bootstrap Grid -->
+  <div class="container my-5">
+    <div class="row g-4">
+
+      <!-- Fruits -->
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" class="img-fluid rounded mb-2" alt="Apple" height="300" width="300" />
+          <h3>Apple 🍎</h3>
+          <p>Sweet and crunchy! Keeps you healthy.</p>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalApple">Eat More</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="orange.jpeg" class="img-fluid rounded mb-2" alt="Orange"  height="300" width="300"/>
+          <h3>Orange 🍊</h3>
+          <p>Full of Vitamin C for strong immunity.</p>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalOrange">Eat More</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="banana.jpg" class="img-fluid rounded mb-2" alt="Banana" height="300" width="300" />
+          <h3>Banana 🍌</h3>
+          <p>Great for energy and strong muscles.</p>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalBanana">Eat More</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="strawberry 🍓.jpeg" class="img-fluid rounded mb-2" alt="Strawberry"  height="300" width="300"/>
+          <h3>Strawberry 🍓</h3>
+          <p>Juicy and full of antioxidants.</p>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalStrawberry">Eat More</button>
+        </div>
+      </div>
+      <br />
+      <h1>Vegetables :</h1>
+      <br />
+      <!-- Vegetables -->
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="carrots.avif" class="img-fluid rounded mb-2" alt="Carrot" height="300" width="300"/>
+          <h3>Carrot 🥕</h3>
+          <p>Makes your eyes healthy and strong.</p>
+          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCarrot">Eat More</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="broccoli.jpeg" class="img-fluid rounded mb-2" alt="Broccoli" height="300" width="300" />
+          <h3>Broccoli 🥦</h3>
+          <p>Super veggie that boosts your brain power.</p>
+          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalBroccoli">Eat More</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="tomatoes.webp" class="img-fluid rounded mb-2" alt="Tomato" height="300" width="300" />
+          <h3>Tomato 🍅</h3>
+          <p>Rich in vitamins and keeps your skin glowing.</p>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalTomato">Eat More</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="food-card">
+          <img src="cucumbers.jpg" class="img-fluid rounded mb-2" alt="Cucumber" height="300" width="300" />
+          <h3>Cucumber 🥒</h3>
+          <p>Keeps you fresh and hydrated.</p>
+          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCucumber">Eat More</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modals -->
+
+  <!-- Apple Modal -->
+  <div class="modal fade" id="modalApple" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalAppleLabel">Apple 🍎</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Apple 🍎. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Orange Modal -->
+  <div class="modal fade" id="modalOrange" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalOrangeLabel">Orange 🍊</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Orange 🍊. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banana Modal -->
+  <div class="modal fade" id="modalBanana" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBananaLabel">Banana 🍌</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Banana 🍌. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strawberry Modal -->
+  <div class="modal fade" id="modalStrawberry" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalStrawberryLabel">Strawberry 🍓</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Strawberry 🍓. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrot Modal -->
+  <div class="modal fade" id="modalCarrot" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCarrotLabel">Carrot 🥕</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Carrot 🥕. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Broccoli Modal -->
+  <div class="modal fade" id="modalBroccoli">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBroccoliLabel">Broccoli 🥦</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Broccoli 🥦. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tomato Modal -->
+  <div class="modal fade" id="modalTomato" tabindex="-1" aria-labelledby="modalTomatoLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTomatoLabel">Tomato 🍅</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Tomato 🍅. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cucumber Modal -->
+  <div class="modal fade" id="modalCucumber">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCucumberLabel">Cucumber 🥒</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yay! You chose to eat more Cucumber 🥒. Keep it up for a healthy and strong body! 🍽️💪
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="bootstrap.bundle.js"></script>
+</body>
+</html>

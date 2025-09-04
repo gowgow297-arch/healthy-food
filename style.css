@@ -1,0 +1,40 @@
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #f9f7d9, #d6f6d1);
+    }
+    header {
+      background: linear-gradient(90deg, #ff7675, #fd79a8);
+      color: white;
+      text-align: center;
+      padding: 30px;
+      border-bottom: 5px solid #ffda79;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px #333;
+    }
+    .food-card {
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      background: white;
+      height: 450px;
+
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .food-card:hover {
+      transform: scale(1.05);
+    }
+    .food-card h3 {
+      color: #2c3e50;
+      font-weight: bold;
+    }
+    footer {
+      background: linear-gradient(90deg, #74b9ff, #55efc4);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 1.1rem;
+    }
